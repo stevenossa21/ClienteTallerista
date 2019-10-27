@@ -85,22 +85,19 @@ public class TallerFrame extends JFrame {
 		panel.setLayout(null);
 
 		JButton btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon(
-				"D:\\UCEVA\\OCTAVO SEMESTRE\\Telematicos\\PROYECTO-RMI\\ClienteTallerista\\src\\view\\imgs\\av3.png"));
+		btnNewButton.setIcon(new ImageIcon(TallerFrame.class.getResource("/view/imgs/av3.png")));
 		btnNewButton.setBounds(539, 141, 145, 149);
 		panel.add(btnNewButton);
 
 		JButton btnNewButton_1 = new JButton("");
 		btnNewButton_1.setSelectedIcon(new ImageIcon(TallerFrame.class.getResource("/view/imgs/av1.png")));
 
-		btnNewButton_1.setIcon(new ImageIcon(
-				"D:\\UCEVA\\OCTAVO SEMESTRE\\Telematicos\\PROYECTO-RMI\\ClienteTallerista\\src\\view\\imgs\\av1.png"));
+		btnNewButton_1.setIcon(new ImageIcon(TallerFrame.class.getResource("/view/imgs/av1.png")));
 		btnNewButton_1.setBounds(100, 141, 145, 149);
 		panel.add(btnNewButton_1);
 
 		JButton btnNewButton_3 = new JButton("");
-		btnNewButton_3.setIcon(new ImageIcon(
-				"D:\\UCEVA\\OCTAVO SEMESTRE\\Telematicos\\PROYECTO-RMI\\ClienteTallerista\\src\\view\\imgs\\av2.png"));
+		btnNewButton_3.setIcon(new ImageIcon(TallerFrame.class.getResource("/view/imgs/av2.png")));
 		btnNewButton_3.setBounds(325, 141, 145, 149);
 		panel.add(btnNewButton_3);
 

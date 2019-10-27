@@ -42,9 +42,9 @@ public class PanelPregunta extends JPanel {
 		
 		JLabel lblOpcion = new JLabel(obj[ig].getPregunta());
 		System.out.println(obj[ig].getPregunta());
-		lblOpcion.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 15));
+		lblOpcion.setFont(new Font("Comic Sans MS", Font.BOLD | Font.ITALIC, 17));
 		lblOpcion.setForeground(Color.GREEN);
-		lblOpcion.setBounds(32, 67, 461, 28);
+		lblOpcion.setBounds(71, 70, 625, 28);
 		add(lblOpcion);
 		
 		JRadioButton rdbtnOpcionA = new JRadioButton(obj[ig].getOpcionA());
@@ -82,19 +82,19 @@ public class PanelPregunta extends JPanel {
 		JLabel lblValor = new JLabel((obj[ig].getValor())+"");
 		lblValor.setFont(new Font("Sitka Text", Font.BOLD | Font.ITALIC, 18));
 		lblValor.setForeground(Color.GREEN);
-		lblValor.setBounds(605, 285, 36, 24);
+		lblValor.setBounds(615, 309, 36, 24);
 		add(lblValor);
 				
 				JLabel lblValorr = new JLabel("Valor");
 				lblValorr.setFont(new Font("Segoe UI Historic", Font.BOLD | Font.ITALIC, 18));
 				lblValorr.setForeground(Color.ORANGE);
-				lblValorr.setBounds(595, 251, 56, 28);
+				lblValorr.setBounds(605, 270, 56, 28);
 				add(lblValorr);
 		
 	
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("D:\\UCEVA\\OCTAVO SEMESTRE\\Telematicos\\PROYECTO-RMI\\ClienteTallerista\\src\\view\\imgs\\"+av+".png"));
-		lblNewLabel.setBounds(557, 49, 139, 165);
+		lblNewLabel.setIcon(new ImageIcon(getClass().getResource("/view/imgs/"+av+".png")));
+		lblNewLabel.setBounds(558, 75, 139, 165);
 		add(lblNewLabel);
 		
 		JLabel label = new JLabel("");
