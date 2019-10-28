@@ -15,27 +15,32 @@ public class PanelFinal extends JPanel {
 		setLayout(null);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("D:\\UCEVA\\OCTAVO SEMESTRE\\Telematicos\\PROYECTO-RMI\\ClienteTallerista\\src\\view\\imgs\\"+av+".png"));
-		lblNewLabel_1.setBounds(290, 60, 150, 150);
+		lblNewLabel_1.setIcon(new ImageIcon(getClass().getResource("/view/imgs/"+av+".png")));
+		lblNewLabel_1.setBounds(505, 67, 150, 150);
 		add(lblNewLabel_1);
 		
 		JLabel lblCorrectasnum = new JLabel("Correctas : "+cor);
 		lblCorrectasnum.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 25));
 		lblCorrectasnum.setForeground(new Color(50, 205, 50));
-		lblCorrectasnum.setBounds(37, 80, 191, 38);
+		lblCorrectasnum.setBounds(37, 31, 191, 38);
 		add(lblCorrectasnum);
 		
 		JLabel lblIncorrectasnum = new JLabel("Incorrectas : "+mal);
 		lblIncorrectasnum.setForeground(new Color(255, 0, 0));
 		lblIncorrectasnum.setFont(new Font("Trebuchet MS", Font.BOLD | Font.ITALIC, 25));
-		lblIncorrectasnum.setBounds(37, 140, 180, 38);
+		lblIncorrectasnum.setBounds(37, 109, 180, 38);
 		add(lblIncorrectasnum);
 		
 		JLabel lblPuntajenum = new JLabel("Puntaje: "+ptj);
 		lblPuntajenum.setFont(new Font("Tahoma", Font.PLAIN, 25));
 		lblPuntajenum.setForeground(new Color(255, 140, 0));
-		lblPuntajenum.setBounds(37, 213, 150, 22);
+		lblPuntajenum.setBounds(56, 195, 150, 22);
 		add(lblPuntajenum);
+		
+		JLabel label = new JLabel("");
+		label.setIcon(new ImageIcon(PanelFinal.class.getResource("/view/imgs/plata.png")));
+		label.setBounds(268, 67, 150, 150);
+		add(label);
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setBounds(-1721, 5, 3892, 2160);
@@ -43,5 +48,4 @@ public class PanelFinal extends JPanel {
 		add(lblNewLabel);
 
 	}
-
 }

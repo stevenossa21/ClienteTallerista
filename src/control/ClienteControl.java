@@ -15,7 +15,7 @@ public class ClienteControl {
 	private List <Tallerista> lt;
 	public ClienteControl() throws RemoteException, NotBoundException{
 		Registry r = LocateRegistry.getRegistry(10000);
-		ir= (ITallerista) r.lookup("Tallerista");
+		ir= (ITallerista) r.lookup("Tallerista"); //Stub -  Instancia de la interfaz
 		
         }
 	

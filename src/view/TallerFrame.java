@@ -162,10 +162,10 @@ public class TallerFrame extends JFrame {
 	public ObjetoPregunta[] metodo() {
 
 		ObjetoPregunta[] obj = new ObjetoPregunta[6];
-		obj[0] = new ObjetoPregunta("¿cual es el principal causante del cambio climatico?", "cambio del clima", "contaminacion del mar", "calentamiento global", "cambio del tiempo", "calentamiento global",125);
-		obj[1] = new ObjetoPregunta("¿Que dispositivo contamina mas?", "PC de escritorio", "Smartphone", "Televisor", "Portatil", "PC de escritorio",130);
+		obj[0] = new ObjetoPregunta("¿cual es el principal causante del cambio climatico?", "cambio del clima", "contaminacion del mar", "calentamiento global", "cambio del tiempo", "calentamiento global",4);
+		obj[1] = new ObjetoPregunta("¿Que dispositivo contamina mas?", "PC de escritorio", "Smartphone", "Televisor", "Portatil", "PC de escritorio",3);
 		obj[2] = new ObjetoPregunta("¿Qué sucedería si no se logra detener el cambio climático?", "Aumenta la temperatura", "Habra escasez de agua", "Destruccion de bosques",
-				"todas las anteriores", "todas las anteriores",151);
+				"todas las anteriores", "todas las anteriores",3);
 
 		int index = 3;
 
