@@ -27,7 +27,7 @@ public class PanelPregunta extends JPanel {
 	int puntajeGlobal = 0;
 	int corr = 0;
 	int mall = 0;
-	
+	int TotPreg = 3;
 	
 
 	/**
@@ -140,7 +140,7 @@ public class PanelPregunta extends JPanel {
 								
 								
 								
-								PanelFinal pf = new PanelFinal(av, corr, mall, puntajeGlobal);
+								PanelFinal pf = new PanelFinal(av, corr, mall, puntajeGlobal, (obj.length+TotPreg));
 								pf.setSize(getSize());
 								
 								add(pf);
@@ -174,7 +174,7 @@ public class PanelPregunta extends JPanel {
 								
 								
 						
-								PanelFinal pf = new PanelFinal(av, corr, mall, puntajeGlobal);
+								PanelFinal pf = new PanelFinal(av, corr, mall, puntajeGlobal, (obj.length+TotPreg));
 								pf.setSize(getSize());
 								
 								add(pf);
